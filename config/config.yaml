@@ -1,0 +1,13 @@
+server:
+  address: "0.0.0.0:8080"
+  time-zone: "Asia/Bangkok"
+
+db:
+  host: postgres
+  port: "5432"
+  user: postgres
+  name: agnos
+  ssl-mode: disable
+  max-open-conns: 20
+  max-idle-conns: 10
+  conn-max-lifetime-hour: 1
